@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'kaminari',                        '~> 0.13.0'
 
-  s.add_dependency 'haml',                            '~> 3.1.7'
+  s.add_dependency 'haml',                            '>= 3.1.7', '< 5.2.0'
   s.add_dependency 'jquery-rails',                    '~> 1.0.19'
   s.add_dependency 'rails-backbone',                  '~> 0.6.1'
   s.add_dependency 'codemirror-rails',                '~> 2.21'
